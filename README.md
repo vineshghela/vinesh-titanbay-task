@@ -48,7 +48,7 @@ tests/
 The simplest path. No local Node.js installation required — Docker Compose handles PostgreSQL, runs migrations, seeds the database and starts the API in one command.
 
 ```bash
-git clone <repo>
+git clone git@github.com:vineshghela/vinesh-titanbay-task.git
 cd titanbay-api
 cp .env.example .env
 docker compose up --build
